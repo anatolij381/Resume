@@ -1,0 +1,36 @@
+main {
+    background-color: aquamarine;
+}
+main h2 {
+    color: #161d2a;
+}
+.tel a {
+    color: #161d2a;
+}
+.mail a {
+    color: #2979ff;
+}
+main li {
+    color: #161d2a;
+}
+h1 {
+    color: black;
+}
+h2 {
+    color: black;
+}
+.intro p {
+    color: #595959;
+} 
+.position {
+    color: black;
+}
+.company {
+    color: #6D9BF5;
+}
+.data {
+    color: #a8a8a8;
+}
+.school {
+    color: #6D9BF5;
+}

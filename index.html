@@ -5,17 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">   
 </head>
 <body>    
-    <main style="position:absolute;width: 370px;height: 1319px;left: 40px;top: 40px;background-color:rgb(212, 245, 197);">
-        <figure>
-            <img src="./images/IMG_20230325_152817.jpg" alt="" width="300">
-            <figcaption>
-                <h2 style="font-size: 22px;">Contacts</h2>
+    <main>
+        <img src="./images/IMG_20230325_152817.jpg" alt="Anatolii Savchuk" width="400px">
+                <h2>Contacts</h2>
                 <ul>
-                    <li><a href="tel:+48793608985">+48793608985</a></li>
-                    <li><a href="mailto:sav4uk.anatolij@gmail.com">sav4uk.anatolij@gmail.com</a></li>
+                    <li class="tel"><a href="tel:+48793608985">+48793608985</a></li>
+                    <li class="mail"><a href="mailto:sav4uk.anatolij@gmail.com">sav4uk.anatolij@gmail.com</a></li>
                 </ul>
                 <h2>Tech Skills</h2>
                 <ul>
@@ -33,16 +31,15 @@
                     <li>Agile</li>
                     <li>GTD</li>
                     <li>Teamwork</li>
-                </ul>
-            </figcaption>
-        </figure>
+                </ul>            
     </main>
     <section>
-        <header style="position: absolute;width: 525px;height: 206px;left: 498px;top: 42px;"><h2>student html.css</h2>
-            <h1 style="color: blue; font-size: 48px;">Anatolii Savchuk</h1>
+        <header class="intro">
+            <h2>student html.css</h2>
+            <h1>Anatolii Savchuk</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nemo laudantium quia aut alias dolor quod voluptatum autem consequatur laboriosam!</p>
         </header>
-        <div style="position: absolute;width: 525px;height: 107px;left: 498px;top: 312px;">
+        <div>
             <h2>Projects</h2>
             <ol>    <!--в цьому місці мають бути проекти-->
                 <li><a href="/">?????</a></li>
@@ -51,10 +48,10 @@
                 <li><a href="/">?????</a></li>        
             </ol>
         </div>
-        <div style="position: absolute;width: 525px;height: 213px;left: 498px;top: 470px;">
+        <div>
             <h2>Work Experience</h2>
-        <h3>Front-End Developer Freelance </h3>
-        <p>September 2019 - up to now   |   Country</p>
+        <h3 class="position">Front-End Developer <span class="company">Freelance</span></h3>
+        <p class="data">September 2019 - up to now   |   Country</p>
         <ul>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -62,27 +59,27 @@
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
         </ul>
         </div>
-        <div style="position: absolute;width: 525px;height: 150px;left: 498px;top: 699px;">
-            <h3>Manager Banderogusak & Co.</h3>
+        <div>
+            <h3 class="position">Manager <span class="company">Banderogusak & Co.</span></h3>
               <ul>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
                 <li>Quis ipsum suspendisse ultrices gravida.</li>
                 <li>Risus commodo viverra maecenas. </li>
               </ul>
         </div>
-        <div style="position: absolute;width: 525px;height: 126px;left: 498px;top: 869px;">
-            <h3>Manager BestUA Corp.</h3>
+        <div>
+            <h3 class="position">Manager <span class="company" >BestUA Corp.</span></h3>
             <ul>
                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                  <li>Quis ipsum suspendisse ultrices gravida.</li>
                  <li>Risus commodo viverra maecenas. </li>
             </ul>
         </div>
-        <footer style="position: absolute;width: 298px;height: 114;left: 498px;top: 1008px;">
+        <footer>
             <h2>Education</h2>
-            <p>Vinnytsia Polytechnic College</p>
+            <p class="school">Vinnytsia Polytechnic College</p>
             <h3>Maintenance, repair of cars and engines</h3>
-            <p>September 1996 - June 2000   |   Country</p>
+            <p class="data">September 1996 - June 2000   |   Country</p>
         </footer>
 
     </section>
